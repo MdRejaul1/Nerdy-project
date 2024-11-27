@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Space+Grotesk:wght@300..700&display=swap');
-*{
+
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -7,7 +8,7 @@
     text-decoration: none;
 }
 
-body{
+body {
     background-color: whitesmoke;
     font-family: "IBM Plex Sans", sans-serif;
 }
@@ -19,21 +20,20 @@ body{
 }
 
 /* header section */
-nav{
+nav {
     display: flex;
     align-items: center;
     margin-bottom: 4rem;
     padding-top: 1.6rem;
- 
 }
 
-.site-name{
+.site-name {
  font-size: 2rem;
  font-weight:bold;
  color: black;
 }
 
-nav menu{
+nav menu {
     display: flex;
     align-items: center;
     gap: 2rem ;
@@ -42,11 +42,15 @@ nav menu{
    color: black;
 }
 
-nav menu a{
+nav menu a {
     color: black; 
 }
 
-nav button{
+nav menu li:hover {
+    text-decoration: underline;
+}
+
+nav button {
     margin-left: auto;
    border: 1px solid gray;
    font-size: 1.4rem;
@@ -55,16 +59,24 @@ nav button{
    background-color: #CEFB78;
    padding-inline: 1rem;
    padding-block: 0.6rem;
+   transition: opacity 0.3s;
 
 }
 
+
+nav button:hover {
+    opacity: 0.80;
+}
+
+
+
 /* main section */
-main{
+main {
     padding-bottom: 3rem;
 }
 
 /* hero section */
-.hero{
+.hero {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -74,11 +86,11 @@ main{
     border-radius: 15px;
 }
 
-.hero-content{
+.hero-content {
     width: 57%;
 }
 
-.hero-content h1{
+.hero-content h1 {
     font-size: 2rem;
     margin-bottom: 1rem;
 
@@ -89,7 +101,7 @@ main{
     margin-bottom: 1.5rem;
 }
 
-.hero-content button{
+.hero-content button {
     font-size: 1.4rem;
    font-weight: bold;
    border: 1px solid gray;
@@ -99,41 +111,39 @@ main{
    padding-block: 0.6rem;
 }
 
-.hero-img{
+.hero-img {
  width: 489px;
 }
 
-.hero-img img{
+.hero-img img {
     width: 100%;
     border-radius: 32px;
 }
 
 /* product sections */
-
-.selling-content{
+.selling-content {
     text-align: center;
     margin-bottom: 2rem;
 }
 
-.selling-content h2{
+.selling-content h2 {
     font-size: 2rem;
     margin-bottom: 1rem;
 }
 
-.selling-content p{
+.selling-content p {
     max-width: 80ch;
     margin-inline: auto;
     font-size: 1.1rem;
 }
   /* poducts items */
-
-  .grid-row{
+  .grid-row {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 1rem;
   }
 
-  .grid-col{
+  .grid-col {
     background-color: white;
     border-radius: 15px;
     padding-inline: 0.8rem;
@@ -145,20 +155,19 @@ main{
     padding-top: 1rem;
     background-color: whitesmoke;
     border-radius: 15px;
-   
     border-radius: 5px;
   }
 
-  .grid-img  img{
+  .grid-img  img {
     width: 100%;
     object-fit: cover;
   }
 
-   .grid-col  h3{
+   .grid-col  h3 {
     font-size: 1.3rem;
    }
 
-   .grid-col  p{
+   .grid-col  p {
     font-size: 1rem;
     margin-bottom: 0.7rem;
    }
@@ -176,14 +185,13 @@ main{
    }
 
    .cart-wrapper {
-
      display: flex;
      align-items: center;
      gap: 0.8rem;
      margin-top: 0.8rem;
    }
 
-   .cart-wrapper button{
+   .cart-wrapper button {
     border: 1px solid gray;
     font-size: 1rem;
     font-weight: bold;
@@ -198,7 +206,6 @@ main{
     display: flex;
     justify-content: center;
     align-items: center;
-
     border: 1px solid red;
     border-radius: 50%;
     width: 40px;
@@ -206,11 +213,19 @@ main{
    
    }
 
-   .love-icon i{
+   .love-icon i {
    color: red;
    }
+
+   .one {
+    margin-bottom: 1rem;
+   }
+
+.two {
+    margin-bottom: 3rem;
+}
 /*footer*/
-footer{
+footer {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -219,39 +234,38 @@ footer{
     padding-block: 3rem;
 }
 
-footer h3{
+footer h3 {
     font-size: 2.5rem;
     margin-bottom: 0.6rem;
 }
 
-footer menu{
+footer menu {
     display: flex;
     gap: 2rem;
     margin-bottom: 1.6rem;
 }
 
-footer a{
+footer a {
     color: black;
 }
 
-footer li{
+footer li {
     font-size: 1rem;
 }
 
 
-.social-icon{
-
+.social-icon {
     display: flex;
     gap: 2rem;
     margin-bottom: 2rem;
 }
 
-.social-icon i{
+.social-icon i {
     font-size: 1.3rem;
 }
 
 
-.fa-facebook{
+.fa-facebook {
     color: blue;
 }
 
@@ -265,21 +279,21 @@ footer li{
     color: red;
 }
 
-hr{
+hr {
     width: 98%;
     color: black;
     margin-bottom: 2rem;
 }
 
 
-.input-btn{
+.input-btn {
     display: flex;
     align-items: center;
     gap: 1rem;
 }
 
 
-.input-btn button{
+.input-btn button {
     border: 1px solid gray;
     font-size: 1.2rem;
     font-weight: bold;
@@ -298,9 +312,7 @@ hr{
     border-radius: 100px;
     padding-right: 3rem;
     padding-left: 1rem;
-    padding-block: 0.6rem;
-   
-    
+    padding-block: 0.6rem;  
 }
 
 
