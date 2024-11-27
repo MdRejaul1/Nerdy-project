@@ -13,8 +13,9 @@ body{
 }
 /* page wrapper */
 .pg-wrapper {
-  width: 955px;
+  max-width: 1280px;
   margin-inline: auto;
+  border: 2px solid red;
 }
 
 /* header section */
@@ -22,11 +23,12 @@ nav{
     display: flex;
     align-items: center;
     margin-bottom: 4rem;
+    padding-top: 1.6rem;
  
 }
 
 .site-name{
- font-size: 1.6rem;
+ font-size: 2rem;
  font-weight:bold;
  color: black;
 }
@@ -36,7 +38,7 @@ nav menu{
     align-items: center;
     gap: 2rem ;
     margin-left: auto;
-   font-size: 1rem;
+   font-size: 1.3rem;
    color: black;
 }
 
@@ -47,12 +49,12 @@ nav menu a{
 nav button{
     margin-left: auto;
    border: 1px solid gray;
-   font-size: 1.2rem;
+   font-size: 1.4rem;
    font-weight: bold;
    border-radius: 100px;
    background-color: #CEFB78;
    padding-inline: 1rem;
-   padding-block: 0.4rem;
+   padding-block: 0.6rem;
 
 }
 
@@ -73,36 +75,37 @@ main{
 }
 
 .hero-content{
-    width: 60%;
+    width: 57%;
 }
 
 .hero-content h1{
-    font-size: 1.8rem;
+    font-size: 2rem;
     margin-bottom: 1rem;
 
 }
 
 .hero-content p {
-    font-size: 0.8rem;
-    margin-bottom: 1rem;
+    font-size:  1.2rem;
+    margin-bottom: 1.5rem;
 }
 
 .hero-content button{
-    font-size: 1rem;
+    font-size: 1.4rem;
    font-weight: bold;
-   border: none;
+   border: 1px solid gray;
    border-radius: 100px;
    background-color: #CEFB78;
    padding-inline: 1rem;
-   padding-block: 0.4rem;
+   padding-block: 0.6rem;
 }
 
 .hero-img{
- width: 400px;
+ width: 489px;
 }
 
 .hero-img img{
     width: 100%;
+    border-radius: 32px;
 }
 
 /* product sections */
@@ -113,14 +116,14 @@ main{
 }
 
 .selling-content h2{
-    font-size: 1.4rem;
+    font-size: 2rem;
     margin-bottom: 1rem;
 }
 
 .selling-content p{
     max-width: 80ch;
     margin-inline: auto;
-    font-size: 0.9rem;
+    font-size: 1.1rem;
 }
   /* poducts items */
 
@@ -138,7 +141,6 @@ main{
   }
 
   .grid-img {
-    width: 280px;
     padding-inline: 1.2rem;
     padding-top: 1rem;
     background-color: whitesmoke;
@@ -149,14 +151,15 @@ main{
 
   .grid-img  img{
     width: 100%;
+    object-fit: cover;
   }
 
    .grid-col  h3{
-    font-size: 1.1rem;
+    font-size: 1.3rem;
    }
 
    .grid-col  p{
-    font-size: 0.9rem;
+    font-size: 1rem;
     margin-bottom: 0.7rem;
    }
 
@@ -167,7 +170,7 @@ main{
    border-radius: 100px;
    background-color: #CEFB78;
    padding-inline: 1rem;
-   padding-block: 0.3rem;
+   padding-block: 0.6rem;
    width: 100%;
  
    }
@@ -187,8 +190,8 @@ main{
     border-radius: 100px;
     background-color: white;
     padding-inline: 1rem;
-    padding-block: 0.3rem;
-    width: 82%;
+    padding-block: 0.6rem;
+    width: 86%;
    }
 
    .love-icon {
@@ -198,8 +201,8 @@ main{
 
     border: 1px solid red;
     border-radius: 50%;
-    width: 35px;
-    height: 35px;
+    width: 40px;
+    height: 40px;
    
    }
 
@@ -217,18 +220,22 @@ footer{
 }
 
 footer h3{
-    font-size: 1.8rem;
+    font-size: 2.5rem;
     margin-bottom: 0.6rem;
 }
 
 footer menu{
     display: flex;
     gap: 2rem;
-    margin-bottom: 1rem;
+    margin-bottom: 1.6rem;
 }
 
 footer a{
     color: black;
+}
+
+footer li{
+    font-size: 1rem;
 }
 
 
@@ -278,18 +285,27 @@ hr{
     font-weight: bold;
     border-radius: 100px;
     background-color: #CEFB78;
-    padding-inline: 1rem;
+    padding-inline: 2.4rem;
     padding-block: 0.4rem;
+    text-align: center;
+    
  
 }
 
 .input-btn input {
+    display: block;
      border: 1px solid gray;
     border-radius: 100px;
-    padding-inline: 1rem;
+    padding-right: 3rem;
+    padding-left: 1rem;
     padding-block: 0.6rem;
-
+   
+    
 }
+
+
+
+
 
 
  
