@@ -16,7 +16,7 @@ body {
 /* page wrapper */
 .container{
     width: 1600px;
-    background-color: whitesmoke;
+    background-color: #F2F4F6;
 }
 
 .pg-wrapper {
@@ -147,23 +147,22 @@ main {
   .grid-row {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    gap: 1rem;
+    gap: 1.5rem;
   }
 
   .grid-col {
-    background-color: white;
-    border-radius: 15px;
-    padding-inline: 0.8rem;
-    padding-block: 0.8rem;
+    background-color: #FFFFFF;
+    border-radius:1.5rem;
+    padding :1.5rem;
   }
 
   .grid-img {
     padding-inline: 1.2rem;
     padding-top: 1rem;
     background-color: whitesmoke;
-    border-radius: 15px;
-    border-radius: 5px;
+    border-radius: 16px;
   }
+
 
   .grid-img  img {
     width: 100%;
@@ -171,22 +170,25 @@ main {
   }
 
    .grid-col  h3 {
-    font-size: 1.3rem;
+    font-size: 1.125rem;
+    line-height: 1.519rem;
+    margin-bottom: 0.5rem;
    }
 
    .grid-col  p {
     font-size: 1rem;
-    margin-bottom: 0.7rem;
+    font-weight: 500;
+    margin-bottom: 1rem;
    }
 
    .grid-col button {
-    border: 1px solid gray;
-   font-size: 1rem;
-   font-weight: bold;
+    border: 1px solid #0F0F0F;
+   font-size: 1.125rem;
+   font-weight: 600;
    border-radius: 100px;
    background-color: #CEFB78;
-   padding-inline: 1rem;
-   padding-block: 0.6rem;
+   padding-inline: 2rem;
+   padding-block: 0.875rem;
    width: 100%;
  
    }
@@ -195,33 +197,40 @@ main {
      display: flex;
      align-items: center;
      gap: 0.8rem;
-     margin-top: 0.8rem;
+     margin-top: 1rem;
    }
 
    .cart-wrapper button {
-    border: 1px solid gray;
-    font-size: 1rem;
-    font-weight: bold;
+    border: 1px solid #E9E9E9;
+    font-size: 1.125rem;
+   font-weight: 600;
     border-radius: 100px;
     background-color: white;
-    padding-inline: 1rem;
-    padding-block: 0.6rem;
-    width: 86%;
+    padding-inline: 2rem;
+    padding-block: 0.875rem;
+   
    }
 
    .love-icon {
     display: flex;
     justify-content: center;
     align-items: center;
-    border: 1px solid red;
+    border: 1px solid #E9E9E9;
     border-radius: 50%;
-    width: 40px;
-    height: 40px;
+    width: 51px;
+    height: 51px;
+    padding: 14px;
+    font-size: 14px;
    
    }
 
-   .love-icon i {
-   color: red;
+   .love-icon:hover{
+    border: 1px solid red;
+   }
+
+   .love-icon i:hover {
+   
+    color: red;
    }
 
    .one {
