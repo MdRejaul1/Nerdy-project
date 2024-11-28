@@ -60,12 +60,15 @@ nav button {
    padding-inline: 2.25rem;
    padding-block: 0.813rem;
    transition: opacity 0.3s;
+   cursor: pointer;
 
 }
 
 
 nav button:hover {
-    opacity: 0.80;
+    opacity: 0.7;
+   
+
 }
 
 
@@ -111,7 +114,17 @@ main {
    background-color: #CEFB78;
    padding-inline: 2.25rem;
    padding-block: 0.813rem;
+   transition: opacity 0.3s;
+   cursor: pointer;
 }
+
+ 
+.hero-content button:hover {
+    opacity: 0.7;
+   
+
+}
+
 
 .hero-img {
  width: 489px;
@@ -191,8 +204,16 @@ main {
    padding-inline: 2rem;
    padding-block: 0.875rem;
    width: 100%;
- 
+   transition: opacity 0.3s;
+  cursor: pointer;
    }
+  
+   .grid-col button:hover {
+    opacity: 0.7;
+   
+
+}
+
 
    .cart-wrapper {
      display: flex;
@@ -209,7 +230,13 @@ main {
     background-color: white;
     padding-inline: 2rem;
     padding-block: 0.875rem;
+    cursor: pointer;
+    transition: border 0.3s;
    
+   }
+
+   .cart-wrapper   button:hover {
+    border: 1px solid black;
    }
 
    .love-icon {
@@ -222,6 +249,7 @@ main {
     height: 51px;
     padding: 14px;
     font-size: 14px;
+    transition: border 0.3s;
    
    }
 
@@ -229,7 +257,7 @@ main {
     border: 1px solid red;
    }
 
-   .love-icon i:hover {
+   .love-icon:hover  i{
    
     color: red;
    }
@@ -248,14 +276,16 @@ footer {
     padding-block: 3rem;
 }
 
-.site-name-ft {
-    width: 7.125rem;
+.ft-header{
+ text-align: center;
+}
+
+ .site-name-ft  {
+
+    width: 2.5rem;
   
 }
 
-.site-name-ft img {
-    width: 100%;
-}
 
 
 
@@ -275,13 +305,13 @@ footer li {
 }
 
 
-.social-icon {
+.social-icons {
     display: flex;
     gap: 2rem;
     margin-bottom: 2rem;
 }
 
-.social-icon i {
+.social-icons i {
     font-size: 1.75rem;
 }
 
