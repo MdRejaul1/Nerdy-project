@@ -79,7 +79,7 @@ main {
 .hero {
     display: flex;
     align-items: center;
-    margin-bottom: 5rem;
+    margin-bottom: rem;
     background-color: white;
     padding-block: 3.75rem;
     border-radius: 32px;
@@ -98,6 +98,7 @@ main {
 
 .hero-content p {
     font-size:  1.2rem;
+    font-weight: 500;
     margin-bottom: 1.5rem;
 }
 
@@ -121,6 +122,9 @@ main {
 }
 
 /* product sections */
+.selling-content-wrapper{
+    margin-block: 6.25rem;
+}
 .selling-content {
     text-align: center;
     margin-bottom: 2rem;
