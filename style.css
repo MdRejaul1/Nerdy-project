@@ -9,10 +9,16 @@
 }
 
 body {
-    background-color: whitesmoke;
+   
     font-family: "IBM Plex Sans", sans-serif;
 }
+
 /* page wrapper */
+.container{
+    width: 1600px;
+    background-color: whitesmoke;
+}
+
 .pg-wrapper {
   max-width: 1280px;
   margin-inline: auto;
@@ -77,16 +83,16 @@ main {
 /* hero section */
 .hero {
     display: flex;
-    justify-content: space-between;
     align-items: center;
     margin-bottom: 5rem;
     background-color: white;
     padding-block: 2.5rem;
-    border-radius: 15px;
+    border-radius: 32px;
+    padding-inline: 5rem;
 }
 
 .hero-content {
-    width: 57%;
+    width: 598.4px;
 }
 
 .hero-content h1 {
