@@ -351,8 +351,12 @@ hr {
     padding-block: 0.938rem;  
     color: #A5A5A5;
     font-weight: 500;
+    transition: border 0.3s;
+    cursor: pointer;
 }
-
+.input-btn input:hover{
+    border: 1px solid black;
+}
 
 .input-btn button {
     border: 1px solid #0F0F0F;
@@ -363,10 +367,15 @@ hr {
     padding-inline: 2.25rem;
     padding-block : 0.813rem;
     text-align: center;
+    transition:   opacity 0.3s ;
+    cursor: pointer;
+
     
  
 }
-
+.input-btn button:hover{
+    opacity: 0.7; 
+}
 
 
 
