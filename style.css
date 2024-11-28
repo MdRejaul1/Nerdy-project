@@ -32,11 +32,6 @@ nav {
     padding-top: 1.6rem;
 }
 
-.site-name {
- font-size: 2rem;
- font-weight:bold;
- color: black;
-}
 
 nav menu {
     display: flex;
@@ -57,13 +52,13 @@ nav menu li:hover {
 
 nav button {
     margin-left: auto;
-   border: 1px solid gray;
-   font-size: 1.4rem;
+   border: 1px solid  #000000;
+   font-size: 1.25rem;
    font-weight: bold;
    border-radius: 100px;
    background-color: #CEFB78;
-   padding-inline: 1rem;
-   padding-block: 0.6rem;
+   padding-inline: 2.25rem;
+   padding-block: 0.813rem;
    transition: opacity 0.3s;
 
 }
@@ -86,7 +81,7 @@ main {
     align-items: center;
     margin-bottom: 5rem;
     background-color: white;
-    padding-block: 2.5rem;
+    padding-block: 3.75rem;
     border-radius: 32px;
     padding-inline: 5rem;
 }
