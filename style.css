@@ -124,7 +124,8 @@ main {
 
 /* product sections */
 .selling-content-wrapper{
-    margin-block: 6.25rem;
+    margin-top: 6.25rem;
+    margin-bottom: 3rem;
 }
 .selling-content {
     text-align: center;
@@ -237,9 +238,7 @@ main {
     margin-bottom: 4rem;
    }
 
-.two {
-    margin-bottom: 3rem;
-}
+
 /*footer*/
 footer {
     display: flex;
