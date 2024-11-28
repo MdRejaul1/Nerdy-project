@@ -225,7 +225,7 @@ main {
    
    }
 
-   .love-icon:hover{
+   .love-icon:hover {
     border: 1px solid red;
    }
 
@@ -245,19 +245,24 @@ footer {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-color: white;
     padding-block: 3rem;
 }
 
-footer h3 {
-    font-size: 2.5rem;
-    margin-bottom: 0.6rem;
+.site-name-ft {
+    width: 7.125rem;
+  
 }
+
+.site-name-ft img {
+    width: 100%;
+}
+
+
 
 footer menu {
     display: flex;
     gap: 2rem;
-    margin-bottom: 1.6rem;
+ 
 }
 
 footer a {
@@ -265,7 +270,8 @@ footer a {
 }
 
 footer li {
-    font-size: 1rem;
+    font-size: 1.3rem;
+    font-weight: 400;
 }
 
 
@@ -276,7 +282,7 @@ footer li {
 }
 
 .social-icon i {
-    font-size: 1.3rem;
+    font-size: 1.75rem;
 }
 
 
@@ -295,8 +301,8 @@ footer li {
 }
 
 hr {
-    width: 98%;
-    color: black;
+    width:66.313rem;
+    color: #E9E9E9;
     margin-bottom: 2rem;
 }
 
@@ -307,28 +313,37 @@ hr {
     gap: 1rem;
 }
 
+.input-btn input {
+    display: block;
+     border: 1px solid #E9E9E9;
+    border-radius: 100px;
+    padding-inline: 2rem;
+    padding-block: 0.938rem;  
+    color: #A5A5A5;
+    font-weight: 500;
+}
+
 
 .input-btn button {
-    border: 1px solid gray;
-    font-size: 1.2rem;
+    border: 1px solid #0F0F0F;
+    font-size: 1.25rem;
     font-weight: bold;
     border-radius: 100px;
     background-color: #CEFB78;
-    padding-inline: 2.4rem;
-    padding-block: 0.4rem;
+    padding-inline: 2.25rem;
+    padding-block : 0.813rem;
     text-align: center;
     
  
 }
 
-.input-btn input {
-    display: block;
-     border: 1px solid gray;
-    border-radius: 100px;
-    padding-right: 3rem;
-    padding-left: 1rem;
-    padding-block: 0.6rem;  
-}
+
+
+
+
+
+
+
 
 
 
